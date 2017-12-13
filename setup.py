@@ -2,7 +2,7 @@ import sys
 import os.path
 from setuptools import setup
 
-path = os.path.join(os.path.dirname(__file__), 'README.txt')
+path = os.path.join(os.path.dirname(__file__), 'README.md')
 with open(path, encoding='utf8') as f:
     LONG_DESCRIPTION = f.read()
 
@@ -20,7 +20,7 @@ setup(
     author='Brice Copy',
     author_email='brice.copy@gmail.com',
     url='http://pypi.python.org/pypi/novelzero',
-    packages=['pgzero'],
+    packages=['novelzero'],
     py_modules=['nzrun'],
     entry_points={
         'console_scripts': [

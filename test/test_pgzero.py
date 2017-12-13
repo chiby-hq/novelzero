@@ -14,7 +14,7 @@ pygame.display.set_mode((TEST_DISP_W, TEST_DISP_H))
 
 
 class ModuleTest(unittest.TestCase):
-    def test_calculate_anchor_with_float(self):
+    def test_character_creation(self):
         pass
 
 
